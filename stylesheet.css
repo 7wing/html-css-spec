@@ -1,1 +1,58 @@
+:root {
+    box-sizing: content-box;
+}
 
+body {
+    font-size: 20px;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul > li, ol > li {
+    list-style-type: none;
+}
+
+li {
+    padding: 0 20px;
+}
+
+.text {
+    margin-top: 20px;
+}
+p {
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.image {
+    border: 2px solid black;
+    padding: 15px;
+    height: 100px;
+}
+
+i {
+    padding: 0 15px;
+}
+
+li > img {
+    width: 23px;
+    height: auto;
+    padding: 0 15px;
+}
